@@ -17,7 +17,6 @@ let beers = [
   },
 ];
 
-// Export Beer model methods
 export default {
   // Get all beers
   getAll: () => beers,

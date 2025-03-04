@@ -1,3 +1,15 @@
+# Introduction to GraphQL
+
+Project is made pretty simple to get fundamentals about `GraphQL`, by using Schemas and Types.
+
+Additional topics like Queries and Mutations.
+
+Then its connected to `React` with `Apollo/Client`.
+
+No database implemented, at this momemt.
+
+Apollo port = `localhost:4000`
+
 ## Using Apollo GraphQL
 
 Apollo Server GraphQL Playground.

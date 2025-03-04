@@ -1,7 +1,6 @@
 import beerResolvers from "./beerResolvers.js";
 import styleResolvers from "./styleResolvers.js";
 
-// Merge all resolvers
 const resolvers = {
   Query: {
     ...beerResolvers.Query,

@@ -1,4 +1,3 @@
-// In-memory data store for BeerStyles (replace with database later)
 let beerStyles = [
   {
     id: "1",
@@ -14,7 +13,6 @@ let beerStyles = [
   },
 ];
 
-// Export BeerStyle model methods
 export default {
   // Get all beer styles
   getAll: () => beerStyles,
