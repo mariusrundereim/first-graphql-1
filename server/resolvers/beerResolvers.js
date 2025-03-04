@@ -6,7 +6,6 @@ const beerResolvers = {
     beers: () => Beer.getAll(),
   },
   Beer: {
-    // Resolve the style field of Beer
     style: (parent) => BeerStyle.getById(parent.styleId),
   },
   Mutation: {
