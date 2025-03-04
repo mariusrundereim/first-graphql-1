@@ -1,0 +1,17 @@
+{
+  "name": "beer-graphql-app",
+  "version": "0.1.0",
+  "description": "A GraphQL application for beer types and styles",
+  "type": "module",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "author": "",
+  "license": "MIT"
+}

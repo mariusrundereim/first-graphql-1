@@ -1,0 +1,20 @@
+{
+  "name": "beer-graphql-app",
+  "version": "0.1.0",
+  "description": "A GraphQL application for beer types and styles",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "author": "",
+  "license": "MIT"
+}

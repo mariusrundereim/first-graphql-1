@@ -1,0 +1,40 @@
+# Schema
+
+type Beer {
+  id: ID!
+  name: String!
+  description: String!
+  abv: Float!
+  ibu: Int
+  style: BeerStyle!
+}
+
+type BeerStyle {
+  id: ID!
+  name: String!
+  description: String
+  origin: String
+  beers: [Beer!]
+}
+
+# Queries
+
+type Query {
+  beer(id: ID!): Beer
+  beers: [Beer!]!
+  beerStyle(id: ID!): BeerStyle
+  beerStyles: [BeerStyle!]!
+}
+
+# Mutations
+
+type Mutation {
+  addBeer(
+    name: String!
+    description: String
+    abv: Float
+    ibu: Int
+    styleId: ID!
+  ): Beer!
+  addBeerStyle(name: String!, description: String, origin: String): BeerStyle!
+}
