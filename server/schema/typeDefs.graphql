@@ -6,7 +6,7 @@ type Beer {
   description: String!
   abv: Float!
   ibu: Int
-  style: BeerStyle!
+  style: BeerStyle
 }
 
 type BeerStyle {
