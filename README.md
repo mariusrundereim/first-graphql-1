@@ -66,13 +66,33 @@ query Beers {
 }
 ```
 
-1. Install all dependencies
+## Installation
+
+1. Clone repository
 
 ```bash
-npm run install:all
+git@github.com:mariusrundereim/first-graphql-1.git
 ```
 
-2. Start development server
+2. Install dependencies
+
+```bash
+npm i
+```
+
+3. Install Server
+
+```bash
+npm run server
+```
+
+4. Install Client
+
+```bash
+npm run client
+```
+
+5. Install Server & Client
 
 ```bash
 npm run dev
